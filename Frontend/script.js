@@ -5,7 +5,7 @@
 // 1. CONFIGURATION
 // ==================================================
 
-const API = 'http://127.0.0.1:8000';
+const API = 'https://second-voice-ai.onrender.com';
 
 const $ = (selector) => document.querySelector(selector);
 
