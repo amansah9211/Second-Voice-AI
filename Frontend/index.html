@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Second Voice AI</title>
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside id="sidebar">
+        <div class="brand"><img class="logo" src="assets/logo.svg" alt="Second Voice AI logo">
+            <div><b>Second Voice AI</b><small>Your personal AI voice and text assistant.</small></div>
+        </div>
+        <button id="newChat" class="primary">＋ New Chat</button>
+        <div class="label">Chat History</div>
+        <div id="history"></div>
+        <button id="clearBtn" class="ghost" title="Clear all history">🗑 Clear History</button>
+    </aside>
+    <main>
+        <header><b>Second Voice AI</b><span id="dot"></span><span id="status">Ready</span><span id="mode"
+                class="pill">Text Mode</span></header>
+        <div id="chat">
+            <div id="welcome">
+                <h1>Hello! I'm Second Voice AI.</h1>
+                <p>Ask me anything, practise your English, or talk to me using your voice.</p>
+                <div class="cards"><button class="card">Explain a technical concept</button><button class="card">Help me
+                        improve my English</button><button class="card">Answer a general question</button></div>
+            </div>
+        </div>
+        <div id="toast" hidden></div>
+        <footer>
+            <textarea id="input" rows="1" placeholder="Type a message… (Enter to send, Shift+Enter for new line)"
+                aria-label="Message"></textarea>
+            <button id="mic" title="Start voice mode" aria-label="Voice mode">🎤</button>
+            <button id="stop" title="Stop voice mode" aria-label="Stop" hidden>⏹ Stop</button>
+            <button id="send" class="primary" title="Send" aria-label="Send" disabled>➤</button>
+        </footer>
+    </main>
+    <template id="welcomeTpl">
+        <div id="welcome">
+            <h1>Hello! I'm Second Voice AI.</h1>
+            <p>Ask me anything, practise your English, or talk to me using your voice.</p>
+            <div class="cards"><button class="card">Explain a technical concept</button><button class="card">Help me
+                    improve my English</button><button class="card">Answer a general question</button></div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+
+</html>

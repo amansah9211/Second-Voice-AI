@@ -1,0 +1,76 @@
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Python Cache Files
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# IDE & Editor Settings
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Local Chat History
+# ==============================
+chat_history.json
+chat_history_backup.json
+
+# ==============================
+# Generated Audio Files
+# ==============================
+*.mp3
+*.wav
+*.ogg
+*.webm
+
+# ==============================
+# Operating System Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Node.js (if added later)
+# ==============================
+node_modules/
+
+# ==============================
+# Local Environment Files
+# ==============================
+.python-version
+
+recording.wav
